@@ -1,0 +1,35 @@
+origin: cloudmileid/tf-module-template
+statements:
+  - subjects:
+    - 'repo:${origin}:ref:refs/heads/main'
+    - 'repo:${origin}:ref:refs/tags/v*'
+    permissions:
+      actions: read # read or write
+      actions-variables: write # read or write
+      checks: read # read or write
+      codespaces: read # read or write
+      codespaces-lifecycle-admin: read # read or write
+      codespaces-metadata: read # read or write
+      codespaces-secrets: read # write
+      contents: write # read or write
+      custom-properties: read # read or write
+      dependabot-secrets: read # read or write
+      deployments: read # read or write
+      discussions: read # read or write
+      environments: read # read or write
+      issues: read # read or write
+      merge-queues: read # read or write
+      packages: read # read or write
+      pages: read # read or write
+      projects: read # read or write or admin
+      pull-requests: read # read or write
+      repository-advisories: read # read or write
+      repository-hooks: read # read or write
+      repository-projects: read # read or write or admin
+      secret-scanning-alerts: read # read or write
+      secrets: write # read or write
+      security-events: read # read or write
+      statuses: read # read or write
+      team-discussions: read # read or write
+      vulnerability-alerts: read # read or write
+      workflows: write # only write
