@@ -1,4 +1,4 @@
-origin: cloudmileid/tf-module-template
+origin: cloudmileid/terraform-demo
 statements:
   - subjects:
     - 'repo:${origin}:ref:refs/heads/main'
@@ -27,9 +27,9 @@ statements:
       repository-hooks: read # read or write
       repository-projects: read # read or write or admin
       secret-scanning-alerts: read # read or write
-      secrets: write # read or write
+      secrets: read # read or write
       security-events: read # read or write
       statuses: read # read or write
       team-discussions: read # read or write
       vulnerability-alerts: read # read or write
-      workflows: write # only write
+      workflows: read # only write
