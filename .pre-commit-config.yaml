@@ -33,7 +33,7 @@ repos:
 
 #Commitizen is a CLI tools to validate commit message following semantic commit standard
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.21.3
+    rev: v3.31.0
     hooks:
       - id: commitizen
         stages: [ commit-msg ]
