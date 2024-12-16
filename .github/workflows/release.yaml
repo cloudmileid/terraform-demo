@@ -47,7 +47,7 @@ jobs:
             contents: write
       -
         name: Generate Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG }}
           body_path: CHANGELOG.md
