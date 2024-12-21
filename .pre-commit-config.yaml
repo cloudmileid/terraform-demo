@@ -21,7 +21,7 @@ repos:
       - id: terraform_docs      # Automatically run terraform_docs when its pattern available in README.md
 
   - repo: https://github.com/gruntwork-io/pre-commit
-    rev: v0.1.23
+    rev: v0.1.25
     hooks:
       - id: terragrunt-hclfmt
 
